@@ -40,9 +40,10 @@ INSTALLED_APPS = [
 
     # Third party
     'rest_framework',
+    'django_pygments',
 
     # Site
-    'snippets',
+    'snippets.apps.SnippetsConfig',
 ]
 
 MIDDLEWARE = [
